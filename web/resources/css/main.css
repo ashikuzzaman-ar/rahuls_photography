@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background-color: #000;
+    color: #fff;
+}
+
+.center{
+    text-align: center;
+}
+
+.parallax-target{
+    min-height: 400px;
+    background: transparent;
+}
+
+.middle{
+    min-height: 240px;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+}
+.floatleft{
+    float: left;
+}
+.contact {
+    margin-top: 13px;
+}
+
+.phone {
+        margin-right: 20px;
+}
+
+.phone > p {
+        font-size: 14px;
+}
+
+.phone > p > img {
+    width: 6px;
+}
+
+.email {
+}
+
+.email > p {
+        font-size: 14px;
+}
+.email > p > a{
+        color: #444;
+        
+}
+.email > p > img {
+    width: 13px;
+}
+
+/*bottom*/
+.darker_blue{
+    background: #AB3D3D;
+}
+.mar{
+    margin-top: 0px;
+}
+.blak{
+    color: maroon;
+}
+.color_gray{
+    color: #999999;
+}
+.black{
+    color: black;
+}
+.hov{
+
+}
+.font{
+    font-size: 11px;
+}
+.back{
+    background: #F3F8FE;
+}
+.search{
+    margin-top: 20px;
+}
+.top_menu{
+    margin-top: 14px;
+}
+.top_menu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top_menu > ul > li {
+    display: inline;
+    float: left;
+    /*//margin-right: 20px;*/
+}
+.top_menu > ul > li > a:hover {
+
+    color: #444;
+    background: red;
+
+}
+.bottom_1{
+    padding: 34px 18px 18px 0px;
+}
