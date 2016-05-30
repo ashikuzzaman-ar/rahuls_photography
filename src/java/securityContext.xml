@@ -10,7 +10,7 @@
             
 
     <http use-expressions="true">
-        <intercept-url pattern="/**" access="isAuthenticated()"/>
+        <!--<intercept-url pattern="/**" access="isAuthenticated()"/>-->
         <form-login />
     </http>
 
