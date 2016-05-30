@@ -1,6 +1,7 @@
 <div class="container-fluid">
     <!-- section 1 starts for parallax-->
-    <div class="parallax-target section-1" data-parallax="scroll" data-image-src="img/banner.png"></div>
+    <!--This is not working here. Fix this please-->
+    <div class="parallax-target section-1" data-parallax="scroll" data-image-src="<c:url value="/resources/media/img/banner.png"/>"></div>
     <!-- section 2 starts-->
 </div>
 <div class="middle section-2">
@@ -15,14 +16,14 @@
                     <h1 class="text-center text-danger" style="font-family: 'Cookie', cursive;">Wedding Album</h1>
                     <div id="sliderA" class="slider">
                         <!--<img src="img/1.png" data-plugin-slide-caption="This is a <b>caption</b> in slide 1. <a href='http://fursik.deviantart.com/' target='_blank' title='Link to the photographer of the photos used in examples'>Photo by Fursik</a>" />-->
-                        <img src="img/wedding.jpg" />
-                        <img src="img/wedding2.jpg" />
+                        <img src="<c:url value="/resources/media/img/wedding.jpg"/>" />
+                        <img src="<c:url value="/resources/media/img/wedding2.jpg"/>" />
                         <!--<div style="background-color: #ff7500" data-plugin-slide-caption="This is the caption of a <b>DIV</b> slide.">
                             <h2>A DIV slide</h2><img style="width:60%;border:1px solid #fff;background-color: #fff;float:right;margin: 10px;padding: 10px;" src="images/image4.jpg" /></div>-->
-                        <img src="img/wedding.jpg" />
-                        <img src="img/wedding2.jpg" />
-                        <img src="img/wedding.jpg" />
-                        <img src="img/wedding2.jpg" />
+                        <img src="<c:url value="/resources/media/img/wedding.jpg"/>" />
+                        <img src="<c:url value="/resources/media/img/wedding2.jpg"/>" />
+                        <img src="<c:url value="/resources/media/img/wedding.jpg"/>" />
+                        <img src="<c:url value="/resources/media/img/wedding2.jpg"/>" />
                     </div>
                     <div class="h10"></div>
 
@@ -90,7 +91,7 @@
 
 
 <!-- section 3 starts-->
-<div class="parallax-target section-3" data-parallax="scroll" data-image-src="img/blogbnnr.jpg"></div>
+<div class="parallax-target section-3" data-parallax="scroll" data-image-src="<c:url value="/resources/media/img/blogbnnr.jpg"/>"></div>
 <!-- section 4 starts-->
 <div class="middle  section-4" style="background: #333333;">
 
