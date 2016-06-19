@@ -100,7 +100,7 @@
     <div class="container-fluid dark_blue font_size mar back">
         <div class="container search h_6">
             <div class=" col-sm-4">
-                <h5 class="h_6 color_gray"><b>Packegs</b></h5>
+                <h5 class="h_6 color_gray"><b>Pkages</b></h5>
                 <p class="color_gray">The perfect tool for photographers, artists,photographers, artists,
                     designers and those who like to create.</p>
                 <div class="col-sm-4">
