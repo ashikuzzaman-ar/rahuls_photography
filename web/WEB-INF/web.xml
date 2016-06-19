@@ -34,8 +34,7 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
-            classpath:securityContext.xml,
-            classpath:datasourceContext.xml
+            classpath:securityContext.xml
         </param-value>
     </context-param>
     

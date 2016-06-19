@@ -6,7 +6,7 @@
     
         
         
-    <b:import resource="classpath:datasourceContext.xml"/>
+    <b:import resource="classpath:dbBean.xml"/>
             
 
     <http use-expressions="true">

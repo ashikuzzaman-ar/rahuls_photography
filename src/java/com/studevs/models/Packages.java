@@ -9,7 +9,7 @@ package com.studevs.models;
  *
  * @author Sajid
  */
-public class Package {
+public class Packages {
 
     private int id;
     private String name;
