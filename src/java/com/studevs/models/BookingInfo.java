@@ -5,6 +5,9 @@
  */
 package com.studevs.models;
 
+import com.studevs.validations.ValidEmail;
+import org.hibernate.validator.constraints.NotBlank;
+
 /**
  *
  * @author Sajid
@@ -12,14 +15,29 @@ package com.studevs.models;
 public class BookingInfo {
 
     private int id;
+    @NotBlank(message = "This field cannot be blank")
     private String name;
+    @ValidEmail(message = "This does not seem to be a valid email address")
     private String email;
+    @NotBlank(message = "This field cannot be blank")
     private String event_venue;
+    @NotBlank(message = "This field cannot be blank")
     private String contact_number;
     private int package_id;
+    @NotBlank(message = "This field cannot be blank")
     private String booking_bkash_account;
+    @NotBlank(message = "This field cannot be blank")
     private String bkash_transaction_id;
     private boolean confirmed;
+    private String date;
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public boolean isConfirmed() {
         return confirmed;

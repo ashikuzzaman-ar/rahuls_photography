@@ -6,7 +6,7 @@
 package com.studevs.controllers;
 
 import com.studevs.dao.Packages_Dao;
-import com.utils.GetBeans;
+import com.studevs.utils.GetBeans;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

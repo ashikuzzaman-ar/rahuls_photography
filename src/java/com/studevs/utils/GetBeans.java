@@ -1,4 +1,4 @@
-package com.utils;
+package com.studevs.utils;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

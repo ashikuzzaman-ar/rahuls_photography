@@ -22,6 +22,14 @@
         
     </bean>
     
+    <bean id="dataSlotDao" class="com.studevs.dao.Date_SlotDao">
+        
+    </bean>
+    
+    <bean id="bookingInfoDao" class="com.studevs.dao.BookingInfoDao">
+        
+    </bean>
+    
     
     <bean id="dataSource"
           class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">

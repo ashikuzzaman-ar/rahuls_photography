@@ -11,6 +11,7 @@ package com.studevs.models;
  */
 public class Date_Slot {
 
+//    Add the available date slots for the package id in the model
     private int package_id;
     private int slot_id;
     private boolean availability;
