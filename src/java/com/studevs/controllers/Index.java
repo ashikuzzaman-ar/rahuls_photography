@@ -5,7 +5,7 @@
  */
 package com.studevs.controllers;
 
-import com.studevs.dao.PackagesDao;
+import com.studevs.dao.Packages_Dao;
 import com.utils.GetBeans;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,8 +19,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class Index {
 
-    @RequestMapping(value = "index", method = RequestMethod.GET)
-    protected String doGet1(Model model) {
+//    Remove .htm when testing is done
+    @RequestMapping(value = "index.htm", method = RequestMethod.GET)
+    protected String doGet1() {
 
         try {
 
@@ -31,11 +32,11 @@ public class Index {
         }
     }
 
-    @RequestMapping(value = "get_all_package", method = RequestMethod.GET)
+    @RequestMapping(value = "get_all_package.htt", method = RequestMethod.GET)
     protected String doGET2(Model model) {
-        GetBeans<PackagesDao> getBeans = new GetBeans<>();
+        GetBeans<Packages_Dao> getBeans = new GetBeans<>();
         getBeans.setFileName("dbBean.xml");
-        PackagesDao packageDao = getBeans.getBean("packageDao");
+        Packages_Dao packageDao = getBeans.getBean("packageDao");
 
         model.addAttribute("packages", packageDao.getAll());
         return "all_packages";

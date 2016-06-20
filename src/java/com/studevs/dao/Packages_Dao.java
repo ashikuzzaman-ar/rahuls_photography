@@ -13,7 +13,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
  *
  * @author Sajid
  */
-public class PackagesDao extends Parent_Dao {
+public class Packages_Dao extends Parent_Dao {
 
     public List<Packages> getAll() {
 

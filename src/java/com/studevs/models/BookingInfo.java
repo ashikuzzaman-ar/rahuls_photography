@@ -17,9 +17,17 @@ public class BookingInfo {
     private String event_venue;
     private String contact_number;
     private int package_id;
-    private String advance;
     private String booking_bkash_account;
     private String bkash_transaction_id;
+    private boolean confirmed;
+
+    public boolean isConfirmed() {
+        return confirmed;
+    }
+
+    public void setConfirmed(boolean confirmed) {
+        this.confirmed = confirmed;
+    }
 
     public int getId() {
         return id;
@@ -67,14 +75,6 @@ public class BookingInfo {
 
     public void setPackage_id(int package_id) {
         this.package_id = package_id;
-    }
-
-    public String getAdvance() {
-        return advance;
-    }
-
-    public void setAdvance(String advance) {
-        this.advance = advance;
     }
 
     public String getBooking_bkash_account() {
